@@ -80,7 +80,7 @@
     cmp-cmdline = {
       enable = true; # autocomplete for cmdline
     };
-    cpm-latex-symbol = {
+    cmp-latex-symbols = {
       enable = true;
     };
   };

@@ -9,6 +9,5 @@
     ./misc.nix
     ./navigation.nix
     ./treesitter.nix
-    ./julia.nix
   ];
 }

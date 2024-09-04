@@ -4,8 +4,6 @@
   extraPackages = with pkgs; [
     rust-analyzer
     lua-language-server
-    texpresso
-    vim-julia-cell
   ];
 
   plugins.lsp = {
@@ -27,6 +25,10 @@
     rustaceanvim.enable = true;
   };
 
+  plugins.texpresso.enable = true;
+  plugins.typescript-tools.enable = true;
+  plugins.lsp-lines.enable = true;
+  plugins.julia-cell.enable = true;
   extraPlugins = [
     (pkgs.vimUtils.buildVimPlugin {
       name = "haskell-tools-nvim";
