@@ -1,0 +1,25 @@
+{
+  lib,
+  helpers,
+  pkgs,
+  ...
+}:
+with lib;
+# This plugin has no configuration, so we use `mkVimPlugin` without the `globalPrefix` argument to
+# avoid the creation of the `settings` option.
+helpers.vim-plugin.mkVimPlugin {
+  name = "texpresso";
+  originalName = "texpresso.vim";
+  package = "texpresso-vim";
+
+  maintainers = [ maintainers.nickhu ];
+
+  extraOptions = {
+    texpressoPackage = helpers.mkPackageOption {
+      name = "texpresso";
+      default = pkgs.texpresso;
+    };
+  };
+
+  extraConfig = cfg: { extraPackages = [ cfg.texpressoPackage ]; };
+}
