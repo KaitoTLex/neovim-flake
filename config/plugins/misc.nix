@@ -10,10 +10,10 @@
       buttons = [
         {
           label = "GitHub";
-          url = "https://github.com/youwen5";
+          url = "https://github.com/KaitoTLex";
         }
         {
-          label = "Code Forge";
+          label = "Tech Support";
           url = "https://code.youwen.dev/";
         }
       ];
