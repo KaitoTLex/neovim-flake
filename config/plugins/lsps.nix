@@ -19,6 +19,8 @@
       tailwindcss.enable = true;
       # typst-lsp.enable = true;
       marksman.enable = true;
+      java.enable = true;
+      cpp.enabled = true;
     };
     typescript-tools.enable = true;
     lsp-lines.enable = true;
@@ -26,6 +28,7 @@
   };
 
   plugins.texpresso.enable = true;
+  plugins.texpresso.texpressoPackage = true;
   plugins.typescript-tools.enable = true;
   plugins.lsp-lines.enable = true;
   plugins.julia-cell.enable = true;
