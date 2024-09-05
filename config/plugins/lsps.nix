@@ -31,7 +31,7 @@
   };
 
   plugins.texpresso.enable = true;
-  plugins.texpresso.texpressoPackage = true;
+  plugins.texpresso.texpressoPackage = null;
   plugins.typescript-tools.enable = true;
   plugins.lsp-lines.enable = true;
   plugins.julia-cell.enable = true;
