@@ -19,8 +19,11 @@
       tailwindcss.enable = true;
       # typst-lsp.enable = true;
       marksman.enable = true;
-      java.enable = true;
-      cpp.enabled = true;
+      fortls.enable = true;
+      java-language-server.enable = true;
+      ccls.enable = true;
+      ltex.enable = true;
+      cmake.enable = true;
     };
     typescript-tools.enable = true;
     lsp-lines.enable = true;
