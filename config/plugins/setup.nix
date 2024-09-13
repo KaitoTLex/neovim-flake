@@ -62,5 +62,6 @@
       pattern = "LspProgressStatusUpdated",
       callback = require("lualine").refresh,
     })
+    vim.diagnostic.config({ virtual_lines = false });
   '';
 }
