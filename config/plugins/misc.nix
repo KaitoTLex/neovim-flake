@@ -2,7 +2,6 @@
 {
   plugins = {
     # Extra (stuff that doesn't affect editing)
-    wakatime.enable = true;
     presence-nvim = {
       enable = true;
       editingText = "Hacking %s";

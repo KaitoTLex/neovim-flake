@@ -341,24 +341,7 @@
         "nixpkgs": "nixpkgs",
         "nixvim": "nixvim",
         "render-markdown": "render-markdown",
-        "rustaceanvim": "rustaceanvim",
         "satellite": "satellite"
-      }
-    },
-    "rustaceanvim": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1726158967,
-        "narHash": "sha256-wZ8SZjHSU1WnhkKx2hXgI5pLRSglOM52kOtJbB3QCds=",
-        "owner": "mrcjkb",
-        "repo": "rustaceanvim",
-        "rev": "5610d5e01dc803717cc0b6b87625f2fbb548b49e",
-        "type": "github"
-      },
-      "original": {
-        "owner": "mrcjkb",
-        "repo": "rustaceanvim",
-        "type": "github"
       }
     },
     "satellite": {
