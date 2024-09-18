@@ -152,11 +152,6 @@
         "owner": "mrcjkb",
         "repo": "haskell-tools.nvim",
         "rev": "1edf2bb5ced056b5d3d1df783dd02041ce09b087",
-        "lastModified": 1725935019,
-        "narHash": "sha256-M+AcprniBOBQFkhXCacAyBtFF5FZyGSG5F6e8ld+r9c=",
-        "owner": "mrcjkb",
-        "repo": "haskell-tools.nvim",
-        "rev": "2443c3b2ab049561009d1b5712e839db546b6586",
         "type": "github"
       },
       "original": {
@@ -266,16 +261,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1726502324,
-        "narHash": "sha256-I/WFSIBeIjlY3CgSJ6IRYxP2aEJ6b42Y1HAeATlBh48=",
+        "lastModified": 1726604448,
+        "narHash": "sha256-Y9myeRO551JhU5GLoczhHPMquhR0bhtq8Mih1TSu+l0=",
         "owner": "nix-community",
         "repo": "nixvim",
-        "rev": "2e3083e42509c399b224239f6d7fa17976b18536",
-        "lastModified": 1725419553,
-        "narHash": "sha256-FSswXypinl4leeR0G2FTqsuG6/Dhlcu2sED9ZnYqwvk=",
-        "owner": "nix-community",
-        "repo": "nixvim",
-        "rev": "35788bbc5ab247563e13bad3ce64acd897bca043",
+        "rev": "6cbf441c22b2c26a1561993f5993e20612a6df1c",
         "type": "github"
       },
       "original": {
@@ -309,16 +299,11 @@
     "render-markdown": {
       "flake": false,
       "locked": {
-        "lastModified": 1726511696,
-        "narHash": "sha256-l0k39OXcpoH7D6UmuQy0LNLj+8HCkKz9R/4zVH4bEt0=",
+        "lastModified": 1726611009,
+        "narHash": "sha256-1SCsjCzE5XUGbj+rqruttD2gQEeAty1J6aoLcPwke0E=",
         "owner": "MeanderingProgrammer",
         "repo": "render-markdown.nvim",
-        "rev": "2424693c7a4c79641a7ea1e2a838dbc9238d6066",
-        "lastModified": 1726165713,
-        "narHash": "sha256-6EoJWKXePglg8hiErp1VOaI/xmYFonthHZL4s96fZXc=",
-        "owner": "MeanderingProgrammer",
-        "repo": "render-markdown.nvim",
-        "rev": "cb935afe5bb52965e2bfc11cf7b563bb159ef4f5",
+        "rev": "5ff191f0c7457ede2fd30ecf76ab16c65118b4ee",
         "type": "github"
       },
       "original": {
@@ -332,12 +317,6 @@
         "flake-parts": "flake-parts",
         "haskell-tools": "haskell-tools",
         "lsp-progress": "lsp-progress",
-        "nixpkgs": "nixpkgs",
-        "nixvim": "nixvim",
-        "render-markdown": "render-markdown",
-        "satellite": "satellite"
-      }
-    },
         "nixpkgs": "nixpkgs",
         "nixvim": "nixvim",
         "render-markdown": "render-markdown",
