@@ -15,6 +15,8 @@
         tailwindcss.enable = true;
         typst-lsp.enable = true;
         marksman.enable = true;
+        java-language-server.enable = true;
+
       };
     };
     typescript-tools.enable = true;

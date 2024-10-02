@@ -1,6 +1,6 @@
 # Basic housekeeping stuff that might run in a typical `init.lua` file.
 {
-  colorschemes.rose-pine.enable = true;
+  colorschemes.kanagawa.enable = true;
 
   opts = {
     laststatus = 3;
